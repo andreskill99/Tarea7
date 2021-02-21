@@ -1,0 +1,840 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#int{
+    float:left;
+    width: 90px;
+    height: 35px;
+}
+
+#til{
+    float:left;
+}
+
+.intro{
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+}
+
+.sheet{
+    border: solid;
+    width: 776px;
+    height: 2350px;
+    background-image: url('../img/fondo7.jpg');
+}
+
+section{
+    border:1px solid black;
+    padding: 8px;
+}
+
+#uno{
+    float: left;
+    width: auto;
+      
+}
+
+#dos{
+    width: auto;
+    float:left;
+}
+
+#txtCed{/*caja de texto*/
+    margin-left: 5%;
+    width: 90%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#tres{
+    height: 64px;
+    float: left;
+    padding: 21.2px;
+    width: auto;
+}
+
+#cuatro{
+    height: 64px;
+    float: left;
+    padding: 4px;
+    width: auto;
+} 
+
+#cinco{
+    padding-top:70px;
+}
+
+#txtNom{
+    width: 505px;
+    padding: 3px;
+}
+
+#txtCorreo{
+    width: 290px;
+    padding: 3px;
+}
+
+#seis{
+    width: 450px;
+    float: left;
+    padding:10px;
+    padding-left: 7px;
+}
+
+#siete{
+    width: auto;
+}
+
+#nueve{
+    margin:auto;
+    float: left;
+}
+
+#diez{
+    margin:auto;
+    float: right;
+}
+
+#txtDir{
+    width: 279.2px;
+    padding: 3px;
+}
+
+#txtCod{
+    width: 255px;
+    padding: 3px;
+}
+
+#once{
+    margin:auto;
+    float: left;
+}
+
+#txtEmer{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#doce{
+    margin:auto;
+    float: left;
+    width: 200px;
+}
+
+#txtparent{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#trece{
+    margin:auto;
+    float: right;
+    width: 170.1px;
+}
+
+#txtCont{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#catorce{
+    margin: auto;
+    float: left;
+    width: 100%;
+}
+
+#quince{
+    margin:auto;
+    float: left;
+    width: 100%;
+}
+
+#txtEt{
+    width: 290px;
+    padding: 3px;
+}
+
+#dieciseis{
+    margin:auto;
+    float: left;
+}
+
+#txtEsp{
+    width: 354px;
+    padding: 3px;
+}
+
+#diecisiete{
+    margin: auto;
+    float:left;
+    width: 300px;
+}
+
+#txtA{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+    margin-left: 50px;
+}
+
+#txtM{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#txtD{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#diecisieteuno{
+    margin:auto;
+    float: left;
+    width: 200px;
+    padding: 18px;
+}
+
+#txtEdad{
+    width: 70px;
+    padding: 3px;  
+}
+
+#dieciocho{
+    margin: auto;
+    float:left; 
+    padding: 17.5px; 
+    width: 270px;
+}
+
+#sltSangre{
+    width: 70px;
+    height: 25px;
+    font-size: 15px; 
+}
+
+#diecinueve{
+    margin:auto;
+    float: right;
+    width: 257px;
+}
+
+#txtNac{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veinte{
+    margin:auto;
+    float: right;
+    width: 257px;
+}
+
+#txtPNa{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veintiuno{
+    margin:auto;
+    float: right;
+    width: 257px;
+}
+
+#txtCNa{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veintidos{
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+#cat1,#cat2{
+    float:left;
+}
+
+#cat2{
+    margin-left: 100px;
+}
+
+#veintitres{
+    margin:auto;
+    float: left;
+    width: 256px;
+}
+
+#txtPRe{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veinticuatro{
+    margin:auto;
+    float: left;
+    width: 257px;
+}
+
+#txtPrRe{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veinticinco{
+    margin:auto;
+    float: left;
+    width: 257px;
+}
+
+#txtCRe{
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+#veintiseis{
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+.separador{
+    float: left;
+    width: 120px;
+    
+}
+#veintisiete{
+    margin:auto;
+    float: left;
+    padding: 11px;
+    width: 317px;
+}
+
+#veintiocho{
+    float: left;
+    width: 455px;
+}
+#txtCart{
+    width: 253px;
+    padding: 3px;
+}
+
+#veintinueve{
+    float: left;
+    width: 305px;
+    padding: 10.5px;
+}
+
+#txtPorc{
+    width: 55px;
+    padding: 3px;
+    float: right;   
+}
+
+#treinta{
+    float: left;
+    width: 467px;
+    padding: 5.5px;
+    
+}
+
+#tip1,#tip2,#tip3,#tip4,#tipCabeza{
+    float:left;  
+}
+#tip1,#tip2,#tip3,#tip4{ 
+    margin-left: 40px;
+}
+
+#treintayuno{
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+.separador2{
+    float: left;
+    margin-left: 25px;  
+}
+
+.separadorCab{
+    float: left;   
+}
+
+#treintaydos{
+    float: left;
+    margin: auto;
+    padding: 11px;
+    width: 539px;
+}
+
+.separador3{
+    float: left;
+    margin-left: 8.008px;  
+}
+
+.separadorCab3{
+    float: left;   
+}
+
+#treintaytres{
+    float: left;
+    width: 232px;
+}
+
+#txtGrad{
+    width: 59px;
+    padding: 3px; 
+}
+
+#treintaycuatro{
+    margin:auto;
+    float: left;
+}
+
+#txttl{
+    width: 228px;
+    padding: 3px;
+}
+
+#treintaycinco{
+    margin: auto;
+    float:left;
+    width: 436px;
+}
+
+#treintaycinco #txtA{
+    width: 80px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+    margin-left: 90px;
+}
+
+#treintaycinco #txtM{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#treintaycinco #txtD{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#treintayseis{
+    margin: auto;
+    float:left;
+    width: 336px;
+}
+
+#treintayseis #txtA{
+    width: 80px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+    margin-left: 90px;
+}
+
+#treintayseis #txtM{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#treintayseis #txtD{
+    width: 50px;
+    padding: 3px;
+    margin-top: 2px;
+    float: left;
+}
+
+#treintaysiete{
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+#treintaysiete .separadorCab{
+    float: left;  
+}
+
+#treintaysiete .separador{
+    float: left;
+    margin-left: 80px;
+}
+
+#treintayocho{
+    margin:auto;
+    float: left;
+    padding: 2px;
+    width: 389px;
+}
+
+#treintayocho input{
+    margin-left: 50px;
+}
+
+#treintaynueve{
+    float: left;
+    width: 383px;
+}
+
+#txtPer{
+    width: 154px;
+    padding: 3px;
+}
+
+#cuarenta{
+    float: left;
+    margin: auto;
+    padding: 11px;
+}
+
+#cuarenta .separador2{
+    float: left;
+    margin-left: 26px;  
+}
+
+#cuarenta .separadorCab{
+    float: left;   
+}
+
+#cuarentayuno{
+    float: right;
+    width: 305px;
+}
+
+#txtPar{
+    width: 152px;
+    padding: 3px;
+}
+
+#cuarentaydos{
+    float: left; 
+    width: 50%; 
+}
+
+#cuarentaydos select{
+    font-size: 12px;
+    width: 200px;
+}
+
+#cuarentaytres{
+    float: left;  
+    width: 50%;
+}
+
+#cuarentaytres select{
+    font-size: 12px;
+    width: 161px;
+}
+
+#cuarentaycuatro{
+    margin:auto;
+    float: left;
+    padding: 11px;
+    width: 55%;
+}
+
+#cuarentaycuatro input{
+margin-left: 30px;
+}
+
+#cuarentaycinco{
+    margin:auto;
+    float: left;
+    padding: 2px;
+    width: 45%;
+}
+
+#cuarentaycinco input{
+margin-left: 30px;
+}
+
+#cuarentayseis{
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+#cuarentayseis .separador{
+    float: left;
+    width: 120px;
+    margin-left: 20px;
+}
+
+#cuarentaysiete{
+    float: left;
+    padding: 2px;
+    width: 50%;
+}
+
+#cuarentaysiete input{
+margin-left: 100px;
+}
+
+#cuarentayocho{
+    margin:auto;
+    float: left;
+    padding: 2px;
+    width: 50%;
+}
+
+#cuarentayocho input{
+margin-left: 60px;
+}
+
+#cuarentaynueve{
+    margin:auto;
+    float: left;
+    padding: 12px;
+    width: 50%;
+}
+
+#cuarentaynueve input{
+margin-left: 100px;
+}
+
+#cincuenta{
+    margin:auto;
+    float: left;
+    width: 50%;
+}
+
+#txtPrac{
+    width: 40%;
+    padding: 3px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cincuentayuno{
+    float: left;
+    margin: auto;
+    padding: 11px;
+    width: 100%; 
+}
+
+#cincuentayuno .separador2{
+    float: left;
+    margin-left: 16px;  
+}
+
+#cincuentayuno .separadorCab{
+    float: left;   
+}
+
+#cincuentaydos{
+    width: 100%;
+    float:left;
+}
+
+.block1{
+float: left;
+margin-left: 20px;
+font-size: 10px;
+}
+
+.block2{
+    float:left;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+#txtSector{
+    width: 50px;
+}
+
+#cincuentaydos span{
+    font-size: 12px;
+}
+
+#cincuentaytres{
+    margin:auto;
+    float: left;
+    padding: 11px;
+    width: 100%;
+}
+
+#cincuentaytres input{
+margin-left: 50px;
+}
+
+#cincuentaycuatro{
+    float: left;
+    margin: auto;
+    padding: 11px;
+    width: 100%;
+}
+
+#cincuentaycuatro .separador2{
+    margin-left: 11%;  
+}
+
+#cincuentaycinco{
+    margin:auto;
+    float: left;
+    padding: 12px;
+    width: 100%;
+}
+
+#cincuentaycinco input{
+margin-left: 60px;
+}
+
+#cincuentayseis{
+    float: left;
+    width: 100%;
+}
+
+#txtlab{
+    width: 57%;
+    padding: 3px;
+}
+
+#cincuentaysiete{
+    width: 100%;
+    float:left;
+}
+
+#cincuentaysiete .block1{
+float: left;
+margin-left: 20px;
+font-size: 10px;
+}
+
+#cincuentaysiete .block2{
+    float:left;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+#txtSectorEm{
+    width: 50px;
+}
+
+#cincuentaysiete span{
+    font-size: 12px;
+}
+
+#cincuentayocho{
+    float: left;
+    margin: auto;
+    padding: 11px;
+    width: 100%;
+}
+
+#cincuentayocho .separador2{
+    margin-left: 5%;  
+}
+
+#cincuentaynueve{
+    margin:auto;
+    float: left;
+    padding: 11px;
+    width: 100%;
+}
+
+#cincuentaynueve input{
+margin-left: 50px;
+}
+
+#sesenta{
+    float: left;
+    width: 100%;
+    padding: 5.5px;
+    
+}
+
+#sesenta #tip1,#tip2,#tip3,#tip4,#tipCabeza{
+    float:left;  
+}
+
+#sesenta #tip1,#tip2,#tip3,#tip4{ 
+    margin-left: 40px;
+}
+
+#sesentayuno{
+    float: left;
+    width: 100%;
+    padding: 5.5px;
+    
+}
+
+#sesentayuno #tip1,#tip2,#tip3,#tip4,#tipCabeza{
+    float:left;  
+}
+
+#sesentayuno #tip1,#tip2,#tip3,#tip4{ 
+    margin-left: 40px;
+}
+
+#sesentaydos{
+    float: left;
+    width: 50%;
+}
+
+#txtIng{
+    width: 172px;
+    padding: 3px;
+}
+
+#sesentaytres{
+    float: left;
+    width: 50%;
+}
+
+#txtNum{
+    width: 128px;
+    padding: 3px;
+}
+
+.firma{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+}
+
+tr{
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: 100;
+    font-weight: 100;
+
+}
+
+pre{
+    height: 80px;
+    padding: 35px 25px;
+    font-weight: bold;
+    text-align:left;
+}

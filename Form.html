@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO INT</title>
+        <link rel="stylesheet" href="css/form.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body background="img/fondo7.jpg"></body> 
+    <body>
+
+        <form name="Formulario de matriculación">
+            <header class="titulo">
+                <div class="intro">
+                    <img id ="int" src="img/int.png" alt="No se pudo mostrar imagen">
+                <h5 id="til" >FORMULARIO DE MATRÍCULA <br>
+                    INSTITUTO SUPERIOR TECNOLÓGICO NELSON TORRES
+                </h5>
+                </div>
+            </header>
+    
+            <nav class="sheet">
+    
+                <section id="uno">
+                   <p>1.Tipo de documento de identificación: &nbsp;
+                   <input type="radio" name="ids" id="rad" value="" checked>&nbsp;Cédula&nbsp;
+                   <input type="radio" name="ids" id="rad">&nbsp;Pasaporte 
+                </p>
+                </section>
+    
+    
+                <section>
+                    <p>&nbsp;Formulario Nro. ____________</p>
+                </section>
+    
+    
+                <section id="dos">
+                    <p>2.Número de documento de identificación:</p>
+                    <input type="text" name="identificacion" id="txtCed" placeholder="Cédula">
+                </section>
+    
+    
+                <section id="tres">
+                    <p>3.Sexo&nbsp;
+                    <input type="radio" name="hm" id="hombre" value="h"checked>&nbsp;Hombre&nbsp; 
+                    <input type="radio" name="hm" id="mujer" value="m">&nbsp;Mujer
+                </p>
+                </section>
+    
+    
+                <section id="cuatro">
+                    <p>4.Género&nbsp;
+                        <input type="radio" name="mf" id="masculino"checked>&nbsp;Masculino&nbsp;
+                        <input type="radio" name="mf" id="femenino">&nbsp;Femenino
+    
+                    </p>
+                </section>
+    
+    
+                <section id="cinco">
+                    <p>5.Apellidos y nombres del estudiante:
+                        <input type="text" name="nombre" id="txtNom" placeholder="Apellidos y Nombres">
+                    </p>
+                </section>
+    
+    
+                <section id="seis">
+                    <p>6.Correo electrónico:
+                    <input type="email" name="correo" id="txtCorreo" placeholder="Correo Electrónico Institucional"> 
+                    </p>
+                </section>
+    
+    
+                <section id="siete">
+                    <p>&nbsp;7.Nro.Celular:&nbsp;
+                        <input type="text" name="celular" id="txtCel" placeholder="Celular">
+                    </p>
+                    <p style="padding-top: 1px;">&nbsp;8.Nro.Convencional:&nbsp;<input type="text" name="Convencional" id="txtTelf" placeholder="Teléfono"></p>
+                </section>
+    
+    
+                <section id="nueve">
+                    <p>9.Dirección:
+                        <input type="text" name="direccion" id="txtDir" placeholder="Dirección">
+                    </p>
+                </section>
+    
+    
+                <section id="diez">
+                    <p >10.Código postal:
+                        <input type="text" name="codigo" id="txtCod" placeholder="Código Postal">
+                    </p>
+                </section>
+    
+                <section id="once">
+                    <p >11.En caso de emergencia contactar a:(apellidos y nombres)</p>
+                        <input type="text" name="emergencia" id="txtEmer" placeholder="Número a contactar">
+                </section>
+    
+    
+                <section id="doce">
+                    <p >12.Parentesco:</p>
+                        <input type="text" name="parentesco" id="txtparent" placeholder="Parentesco">
+                </section>
+    
+    
+                <section id="trece">
+                    <p >13.Nro.de contacto:</p>
+                        <input type="text" name="ncontacto" id="txtCont" placeholder="Nro.Contacto">
+                </section>
+    
+                <section id="catorce">
+                    <p>14.Etnia:
+                        <input type="radio" name="etnia" id="i">Indígena&nbsp;
+                        <input type="radio" name="etnia" id="a">Afroecuatoriano&nbsp;
+                        <input type="radio" name="etnia" id="n">Negro&nbsp;
+                        <input type="radio" name="etnia" id="m">Mulato&nbsp;
+                        <input type="radio" name="etnia" id="mo">Montuvio&nbsp;
+                        <input type="radio" name="etnia" id="me"checked>Mestizo&nbsp;
+                        <input type="radio" name="etnia" id="b">Blanco&nbsp;
+                        <input type="radio" name="etnia" id="o">Otro&nbsp;
+                        <input type="radio" name="etnia" id="n">No registra
+                    </p>
+                </section>
+    
+                <section id="quince">
+                    <p>15.En caso de escoger etnia Indígena u otro epecifique su nacionalidad:
+                        <input type="text" name="etCaso" id="txtEt" placeholder="Dirección">
+                    </p>
+                </section>
+    
+                <section id="dieciseis">
+                    <p>16.¿Habla algún idioma ancestral?:&nbsp;
+                    <input type="radio" name="idioma" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="idioma" id="n" value="n"checked>&nbsp;No
+                    &nbsp;Especifique:
+                    <input type="text" name="esp" id="txtEsp" placeholder="Especificar Idioma">
+                </p>
+                </section>
+    
+                <section id="diecisiete">
+                    <p>17.Fecha de nacimiento:(Año-Mes-Día)</p>
+                    <input type="text" name="fecha" id="txtA" placeholder="Año">
+                    <input type="text" name="fecha" id="txtM" placeholder="Mes">
+                    <input type="text" name="fecha" id="txtD" placeholder="Día">
+                </section>
+    
+                <section id="diecisieteuno">
+                    <p>17.1 Edad:&nbsp;
+                        <input type="text" name="edad" id="txtEdad" placeholder="Edad">
+                    </p>
+                </section>
+    
+                <section id="dieciocho">
+                    <p>18.Tipo de sangre:
+                        <select id="sltSangre" >
+                            <option value="o">O+</option>
+                            <option value="a">A+</option>
+                            <option value="a">A-</option>
+                            <option value="b">B+</option>
+                            <option value="b">B-</option>
+                            <option value="ab">AB+</option>
+                            <option value="ab">AB-</option>
+                            
+                            <option value="o">O-</option>
+                        </select>
+                    </p>
+                </section>
+                
+                <section id="veintiuno">
+                    <p >21.Cantón de nacimiento:</p>
+                        <input type="text" name="nacimiento" id="txtCNa" placeholder="Cantón de nacimiento">
+                </section>
+                <section id="veinte">
+                    <p >20.Provincia de nacimiento:</p>
+                        <input type="text" name="nacimiento" id="txtPNa" placeholder="Provincia de nacimiento">
+                </section>
+                <section id="diecinueve">
+                    <p >19.País de nacionalidad:</p>
+                        <input type="text" name="nacionalidad" id="txtNac" placeholder="País de nacionalidad">
+                </section>
+                
+    
+                <section id="veintidos">
+                    <p>22.Categoría migratoria:(en caso de ser extranjero)</p>
+                    <div id="cat1"><input type="radio" name="categoria" id="rCat">Residente permanente<br>
+                    <input type="radio" name="categoria" id="rCat">Residente transitorio o no residente</div> 
+                    <div id="cat2"><input type="radio" name="categoria" id="rCat">Residente temporal <br>
+                    <input type="radio" name="categoria" id="rCat">Refugiado</div>
+                </section>
+    
+                <section id="veintitres">
+                    <p >23.País de residencia:</p>
+                        <input type="text" name="nacionalidad" id="txtPRe" placeholder="País de residencia">
+                </section>
+    
+                <section id="veinticuatro">
+                    <p >24.Provincia de residencia:</p>
+                        <input type="text" name="nacimiento" id="txtPrRe" placeholder="Provincia de residencia">
+                </section>
+    
+                <section id="veinticinco">
+                    <p >25.Cantón de residencia:</p>
+                        <input type="text" name="nacimiento" id="txtCRe" placeholder="Cantón de residencia">
+                </section>
+    
+                <section id="veintiseis">
+                    <div class="separador"><p>26.Estado civil:</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="s" checked>Soltero</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="c">Casado</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="u">Unión libre</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="d">Divorciado</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="v">Viudo&nbsp;</div>
+                    </p>
+                </section>
+    
+                <section id="veintisiete">
+                    <p>27.¿Tiene alguna discapacidad?:&nbsp;
+                    <input type="radio" name="discapacidad" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="discapacidad" id="n" value="n"checked>&nbsp;No
+                </p>
+                </section>
+    
+                <section id="veintiocho">
+                    <p>28.Nro.Carnét de Conadis:&nbsp;
+                    <input type="text" name="carnet" id="txtCart" placeholder="Carnet del Conadis">
+                </p>
+                </section>
+    
+                <section id="veintinueve">
+                    <p id="o">29.Porcentaje de discapacidad:&nbsp;
+                        <input type="text" name="porcentaje" id="txtPorc"value="%" >
+                        
+                    </p>
+                </section>
+    
+                <section id="treinta">
+                    <div id="tipCabeza"><p>30.Tipo:</div>
+                    <div id="tip1"><input type="radio" name="tipoD" id="rTip">Auditiva<br>
+                    <input type="radio" name="tipoD" id="rTip">Intelectual</div> 
+                    <div id="tip2"><input type="radio" name="tipoD" id="rTip">Física<br>
+                    <input type="radio" name="tipoDa" id="rTip">Mental</div>
+                    <div id="tip3"><input type="radio" name="tipoD" id="rTip">Visual<br>
+                        <input type="radio" name="tipoD" id="rTip" checked>NA</div> 
+                        <div id="tip4"><input type="radio" name="tipoD" id="rTip">Otra<br>
+                            </div> 
+                    </p>  
+                </section>
+    
+                <section id="treintayuno">
+                    <div class="separadorCab"><p>31.Tipo de colegio:</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="s" checked>Fiscal</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="c">Fiscomisional</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="u">Particular</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="d">Municipal</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="v">Extranjero</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="v">No Registra</div>
+                    </p>
+                </section>
+    
+                <section id="treintaydos">
+                    <div class="separadorCab3"><p>32.Tipo de Bachillerato:</div>
+                        <div class="separador3"><input type="radio" name="bachillerato" id="s">Técnico</div>
+                        <div class="separador3"><input type="radio" name="bachillerato" id="c">Técnico productivo</div>
+                        <div class="separador3"><input type="radio" name="bachillerato" id="u" checked>BGU</div>
+                        <div class="separador3"><input type="radio" name="bachillerato" id="d">BI</div>
+                        <div class="separador3"><input type="radio" name="bachillerato" id="v">Otro</div>
+                    </p>
+                </section>
+    
+                <section id="treintaytres">
+                    <p>33.Año de graduación:&nbsp;
+                    <input type="text" name="graduacion" id="txtGrad" placeholder="Año graduación">
+                </p>
+                </section>
+    
+                <section id="treintaycuatro">
+                    <p>34.¿Posee algún título de educación superior?:&nbsp;
+                    <input type="radio" name="tituloS" id="s" value="s" >&nbsp;Sí&nbsp; 
+                    <input type="radio" name="tituloS" id="n" value="n"checked>&nbsp;No
+                    &nbsp;Especifique el título:
+                    <input type="text" name="tituloS" id="txttl" placeholder="Especificar título">
+                </p>
+                </section>
+    
+                <section id="treintaycinco">
+                    <p>35.Fecha en la que inició el estudiante la carrera:(Año-Mes-Día)</p>
+                    <input type="text" name="fecha" id="txtA" placeholder="Año">
+                    <input type="text" name="fecha" id="txtM" placeholder="Mes">
+                    <input type="text" name="fecha" id="txtD" placeholder="Día">
+                </section>
+    
+                <section id="treintayseis">
+                    <p>36.Fecha de matrícula:(Año-Mes-Día)</p>
+                    <input type="text" name="fecha" id="txtA" placeholder="Año">
+                    <input type="text" name="fecha" id="txtM" placeholder="Mes">
+                    <input type="text" name="fecha" id="txtD" placeholder="Día">
+                </section>
+    
+                <section id="treintaysiete">
+                    <div class="separadorCab"><p>37.Típo de matrícula:</div>
+                        <div class="separador"><input type="radio" name="tipMa" id="s" checked>Ordinaria</div>
+                        <div class="separador"><input type="radio" name="tipMa" id="c">Extraordinaria</div>
+                        <div class="separador"><input type="radio" name="tipMa" id="u">Especial</div>
+                    </p>
+                </section>
+    
+                <section id="treintayocho">
+                    <p>38.Período/Ciclo acádemico:</p>
+                    <input type="radio" name="periodo" id="s" value="s">&nbsp;Primero(may-oct)&nbsp; 
+                    <input type="radio" name="periodo" id="n" value="n" checked>&nbsp;Segundo(nov-abril)
+                </section>
+    
+                <section id="treintaynueve">
+                    <p>39.Año del período académico:&nbsp;
+                    <input type="text" name="periodo" id="txtPer" placeholder="Perído acádemico">
+                </p>
+                </section>
+    
+                <section id="cuarenta">
+                    <div class="separadorCab"><p>40.Nivel académico:</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="s"checked>1º</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="c">2º</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="u">3º </div>
+                        <div class="separador2"><input type="radio" name="colegio" id="d">4º</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="v">5º</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="v">6º </div>  
+                    </p>
+                </section>
+    
+                <section id="cuarentayuno">
+                    <p>41.Paralelo(A-T):&nbsp;
+                    <input type="text" name="paralelo" id="txtPar" placeholder="Paralelo">
+                </p>
+                </section>
+    
+                <section id="cuarentaydos">
+                    <p>
+                        42.Nombre de la carrera:
+                        <select>
+                            <option value="administracion">TECNOLOGIA SUPERIOR EN ADMINISTRACION</option>
+                            <option value="desarrollo">TECNOLOGIA SUPERIOR EN DESARROLLO DE SOFTWARE</option>
+                            <option value="disenio">TECNOLOGIA SUPERIOR EN DISEÑO GRAFICO</option>
+                        </select>
+                    </p>
+                </section>
+    
+                <section id="cuarentaytres">
+                    <p>
+                        43.Título que otorga la carrera:
+                        <select>
+                            <option value="administracion">TECNOLOGO SUPERIOR EN ADMINISTRACION</option>
+                            <option value="desarrollo">TECNOLOGO SUPERIOR EN DESARROLLO DE SOFTWARE</option>
+                            <option value="disenio">TECNOLOGO SUPERIOR EN DISEÑO GRAFICO</option>
+                        </select>
+                    </p>
+                </section>
+    
+                <section id="cuarentaycuatro">
+                    <p>44.Tipo de carrera:&nbsp;
+                    <input type="radio" name="tipcar" id="s" value="s">&nbsp;Tecnicatura&nbsp; 
+                    <input type="radio" name="tipcar" id="n" value="n" checked>&nbsp;Tecnología
+                </p>
+                </section>
+                <section id="cuarentaycinco">
+                    <p>45.Modalida de la carrera:</p>
+                    <input type="radio" name="modcar" id="s" value="s"checked>&nbsp;Precencial&nbsp; 
+                    <input type="radio" name="modcar" id="n" value="n">&nbsp;Dual
+                
+                </section>
+    
+                <section id="cuarentayseis">
+                    <div class="separadorCab"><p>46.Jornada en la que estudia:</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="s" >Matutina</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="c">Vespertina</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="u"checked>Nocturna</div>
+                        <div class="separador"><input type="radio" name="estCivil" id="d">Intensiva</div>
+                    </p>
+                </section>
+            
+                <section id="cuarentaysiete">
+                    <p>&nbsp;47.¿Ha repetido al menos una materia?:</p>
+                    <input type="radio" name="rmateria" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="rmateria" id="n" value="n" checked>&nbsp;No
+                
+                </section>
+    
+    
+                <section id="cuarentayocho">
+                    <p>&nbsp;48.¿Ha perdido la gratuidad?</p>
+                    <input type="radio" name="pgrat" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="pgrat" id="n" value="n" checked>&nbsp;No
+                
+                </section>
+    
+    
+                <section id="cuarentaynueve">
+                    <p>49.¿Ha realizado prácticas preprofesionales?:</p>
+                    <input type="radio" name="practicas" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="practicas" id="n" value="n" checked>&nbsp;No
+                
+                </section>
+    
+    
+                <section id="cincuenta">
+                    <p >50.Nro. horas de prácticas preprofesionales realizadas:</p>
+                        <input type="text" name="hpracticas" id="txtPrac" value="NA" placeholder="Horas prácticas">
+                </section>
+    
+    
+                <section id="cincuentayuno">
+                    <div class="separadorCab"><p>51.Tipo de institución en el que realiza las prácticas preprofesionales:</p></div>
+                        <div class="separador2"><input type="radio" name="colegio" id="s">Pública</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="c">Privada</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="u">ONG</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="d">Otros</div>
+                        <div class="separador2"><input type="radio" name="colegio" id="v" checked>NA</div>
+                   
+                </section>
+    
+    
+                <section id="cincuentaydos">
+                    <p>52.Sector económico en el que realiza las prácticas preprofesionales:
+                        <input type="text" name="sector" id="txtSector" value="22"><span>(Escribir el número de acuerdo al detalle)</span>
+                    </p>
+                    <div class="block1">
+                    <ol>
+                        <li>Agricultura,ganadería,sivicultura y pesca</li>
+                        <li>Explotación de minas y canteras</li>
+                        <li>Industrias manufactureras</li>
+                        <li>Suministro de electricidad, gas vapor y aire acondicionado</li>
+                        <li>Distribución de agua, alcantarrillado, gestión de desechos y actividades de saneamiento.</li>
+                        <li>Construcción</li>
+                        <li>Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas</li>
+                        <li>Transporte y almacenamiento </li>
+                        <li>Actividades de alojamiento y de servicio de comidas.</li>
+                        <li>Información y comunicación bienes y servicios para uso propio</li>
+                    </ol>
+                </div>
+                <div class="block2">
+                    <ol>
+                        <li>Actividades inmobiliarias</li>
+                        <li>Actividades profesionales, cientrifícas y técnicas</li>
+                        <li>Actividades de servicios administrativos y de apoyo</li>
+                        <li>Administración pública y defensa; planes de seguridad social de afiliación obligat.</li>
+                        <li>Enseñanza</li>
+                        <li>Actividades de atención de la salud humana y de asistencia.</li>
+                        <li>Artes, entretenimiento y recreación.</li>
+                        <li>Otras actividades de servicio.</li>
+                        <li>Actividades de los hogares como productos de bienes y servicios para uso propio</li>
+                        <li>NA</li>
+                    </ol>
+                </div>
+                </section>
+    
+                <section id="cincuentaytres">
+                    <p>&nbsp;53.¿Ha participado en algún proyecto de vinculación con la sociedad en el instituto?:
+                    <input type="radio" name="vinculacion" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="vinculaciona" id="n" value="n" checked>&nbsp;No
+                    </p>
+                </section>
+    
+    
+                <section id="cincuentaycuatro">
+                    <p>54.¿Cuál es el alcance del proyecto de vinculación con la sociedad?:</p>
+                        <div class="separador2"><input type="radio" name="alviculacion" id="s">Nacional</div>
+                        <div class="separador2"><input type="radio" name="alviculacion" id="c">Provincial</div>
+                        <div class="separador2"><input type="radio" name="alviculacion" id="u">Cantonal</div>
+                        <div class="separador2"><input type="radio" name="alviculacion" id="d">Parroquial</div>
+                        <div class="separador2"><input type="radio" name="alviculacion" id="v" checked>NA</div>
+                   
+                </section>
+    
+    
+                <section id="cincuentaycinco">
+                    <p>55.El estudiante se encuentra dedicado a:
+                    <input type="radio" name="sdedicado" id="s" value="s"checked>&nbsp;Solamente al estudio&nbsp; 
+                    <input type="radio" name="sdedicado" id="n" value="n" >&nbsp;Trabaja y estudia
+                    </p>
+                </section>
+    
+    
+                <section id="cincuentayseis">
+                    <p>56¿Cuál es el nombre de la empresa donde labora?:&nbsp;
+                    <input type="text" name="labor" id="txtlab" value="NA">
+                </p>
+                </section>
+    
+    
+                <section id="cincuentaysiete">
+                    <p>57.Indique cuál es el sector ecónomico de la empresa:
+                        <input type="text" name="sectorEm" id="txtSectorEm" value="22"><span>(Escribir el número de acuerdo al detalle)</span>
+                    </p>
+                    <div class="block1">
+                    <ol>
+                        <li>Agricultura, ganadería, silvicultura y pesca</li>
+                        <li>Explotación de minas y canteras</li>
+                        <li>Industrias manufactureras</li>
+                        <li>Suministro de electricidad, gas, vapor y aire acondicionado</li>
+                        <li>Distribución de agua, alcantarillado, gestión de desechos y actividades de saneamiento.</li>
+                        <li>Construcción</li>
+                        <li>Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas</li>
+                        <li></li>
+                        <li>Transporte y almacenamiento</li>
+                        <li>Actividades de alojamiento y de servicio de comidas.</li>
+                        <li>Información y comunicación bienes y servicios para uso propio</li>
+                    </ol>
+                    </div>
+    
+                    <div class="block2">
+                        <ol>
+                            <li>Actividades financieras y de seguros</li>
+                            <li>Actividades inmobiliarias</li>
+                            <li>Actividades profesionales, científicas y técnicas</li>
+                            <li>Actividades de servicios administrativos y de apoyo</li>
+                            <li>Administración pública y defensa; planes de seguridad social de afiliación obligat.</li>
+                            <li>Enseñanza</li>
+                            <li>Actividades de atención de la salud humana y de asistencia.</li>
+                            <li>Artes, entretenimiento y recreación.</li>
+                            <li>Otras actividades de servicio.</li>
+                            <li>Actividades de los hogares como productores de bienes y servicios para uso propio</li>
+                            <li>NA</li>
+                        </ol>
+                    </div>
+                </section>
+    
+    
+                <section id="cincuentayocho">
+                    <p>58.¿Para qué emplea sus ingresos económicos el estudiante?:</p>
+                        <div class="separador2"><input type="radio" name="ingresose" id="s">Sostener sus estudios</div>
+                        <div class="separador2"><input type="radio" name="ingresose" id="c">Para mantener a su familia</div>
+                        <div class="separador2"><input type="radio" name="ingresose" id="u">Gastos personales</div>
+                        <div class="separador2"><input type="radio" name="ingresose" id="v" checked>NA</div>
+                   
+                </section>
+    
+    
+                <section id="cincuentaynueve">
+                    <p>&nbsp;59.¿Usted o algún miembro de la familia recibe el bono de desarrollo humano?:
+                    <input type="radio" name="bono" id="s" value="s">&nbsp;Sí&nbsp; 
+                    <input type="radio" name="bono" id="n" value="n" checked>&nbsp;No
+                    </p>
+                </section>
+    
+    
+                <section id="sesenta">
+                    <p>60.Nivel de fomación del padre:</p>
+                    <div id="tip1"><input type="radio" name="formacion" id="rTip">Centro de alfabetización<br>
+                    <input type="radio" name="formacion" id="rTip">Secundaria <br>
+                    <input type="radio" name="formacion" id="rTip">Posgrado 
+                    </div> 
+                    <div id="tip2"><input type="radio" name="formacion" id="rTip">Jardín de infantes<br>
+                    <input type="radio" name="formacion" id="rTip">Educación media <br>
+                    <input type="radio" name="formacion" id="rTip"checked>NA
+                    </div>
+                    <div id="tip3"><input type="radio" name="formacion" id="rTip">Primaria<br>
+                        <input type="radio" name="formacion" id="rTip">Superior no universitario</div> 
+                        <div id="tip4"><input type="radio" name="formacion" id="rTip">Educación básica<br>
+                            <input type="radio" name="formacion" id="rTip">Superior universitario
+                            </div> 
+                     
+                </section>
+    
+                <section id="sesentayuno">
+                    <p>61.Nivel de fomación de la madre:</p>
+                    <div id="tip1"><input type="radio" name="formacionM" id="rTip">Centro de alfabetización<br>
+                    <input type="radio" name="formacionM" id="rTip">Secundaria <br>
+                    <input type="radio" name="formacion" id="rTip">Posgrado 
+                    </div> 
+                    <div id="tip2"><input type="radio" name="formacionM" id="rTip">Jardín de infantes<br>
+                    <input type="radio" name="formacionM" id="rTip">Educación media <br>
+                    <input type="radio" name="formacionM" id="rTip"checked>NA
+                    </div>
+                    <div id="tip3"><input type="radio" name="formacionM" id="rTip">Primaria<br>
+                        <input type="radio" name="formacionM" id="rTip">Superior no universitario</div> 
+                        <div id="tip4"><input type="radio" name="formacionM" id="rTip">Educación básica<br>
+                            <input type="radio" name="formacionM" id="rTip">Superior universitario
+                            </div> 
+                </section>
+
+                <section id="sesentaydos">
+                    <p>62.Ingresos del hogar: $&nbsp;
+                    <input type="text" name="ingreso" id="txtIng" placeholder="Ingresos">
+                </p>
+                </section>
+    
+                <section id="sesentaytres">
+                    <p>63.Número de miembros del hogar: &nbsp;
+                    <input type="text" name="num" id="txtNum" placeholder="Miembros del hogar">
+                </p>
+                </section>
+    
+                <div class="firma">
+                    <p>FIRMA ESTUDIANTE:_________________</p>
+                </div>
+            </nav>
+        </form>
+
+    <pre><a href="Log.html"><img src="img/Salir.png" height="70" width="100"></a></pre>
+</html>

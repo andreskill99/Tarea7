@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+                                              /*Cabecera*/
+header{
+    margin-top: 20px;
+  
+}
+
+body{
+    background-color: burlywood;
+}
+#titulo{
+    float: left;
+    margin-left: 50px;
+    
+}
+#buscador{
+    float:right;
+    margin-right: 250px;
+    
+    
+}
+p.image{
+    /*background: url("../Actividad6/img/lupa.png");*/
+    background: url("../img/buscar.png");
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    
+}
+
+.text{
+    opacity: 0.7;
+    padding: 5px;
+    padding-top: 10px;
+    width: 250px;
+    padding-left: 40px;
+    border-radius: 50px;
+    border:solid 1px;
+    box-shadow: 1px 1px 5px black;
+    
+}
+#botton{
+    float: left;
+    clear: both;
+    margin-left:50px ;
+    
+}
+.ab{
+    padding: 4px;
+    padding-left: 74px;
+    padding-right: 88px;
+    margin-left: -7px;
+    box-sizing: border-box;
+}
+                                        /*Cuerpo izquierdo*/
+#cuerpo{
+    clear:both;
+    float: left;
+}
+/*primer bloque*/
+.primerBlock{
+    border-radius: 14px;
+    border-top: 10px  solid rgb(87, 87, 87);
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.primerBlock p{
+    border: solid rgb(87, 87, 87);
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    background: rgb(87, 87, 87);
+    color: white;
+    font-weight: bold;
+
+}
+.primerBlock div{
+    border-bottom: solid rgb(87, 87, 87);
+    border-right: solid rgb(87, 87, 87);
+    border-left: solid rgb(87, 87, 87);
+    padding: 10px;
+    width: 230px;
+    padding-bottom:20px;
+}
+.primerBlock .password{
+    margin-left: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    width: 125px;
+    
+}
+.primerBlock .email{
+    margin-left: 30px;
+    padding: 4px;
+    border-radius: 2px;
+    width: 125px;
+    
+}
+.primerBlock .sing{
+    border-radius: 5px;
+    margin-left: 75px;
+    width: 75px;
+    padding: 5px;
+    
+}
+/*segundo bloque*/
+.segundoBlock{
+    border-radius: 15px;
+    border-top: 12px  solid rgb(87, 87, 87);
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.segundoBlock p{
+    border: solid rgb(87, 87, 87);
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    color:white;
+    font-weight: bold;
+    background: rgb(87, 87, 87);
+
+}
+.segundoBlock div{
+    border-bottom: solid rgb(87, 87, 87);
+    border-right: solid rgb(87, 87, 87);
+    border-left: solid rgb(87, 87, 87);
+    padding: 10px;
+    width: 230px;
+    padding-bottom:20px;
+    padding-left:20px ;
+}
+/*tercer bloque*/
+.tercerBlock{
+    border-radius: 15px;
+    border-top: 12px  solid rgb(87, 87, 87);
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.tercerBlock p{
+    border: solid rgb(87, 87, 87);
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    color: white;
+    font-weight: bold;
+    background: rgb(87, 87, 87);
+
+}
+.tercerBlock div{
+    border-bottom: solid rgb(87, 87, 87);
+    border-right: solid rgb(87, 87, 87);
+    border-left: solid rgb(87, 87, 87);
+    padding: 8px;
+    width: 230px;
+    padding-bottom:20px;
+    
+}
+
+                                               /*cuerpo derecho*/
+.imgPrincipal{
+    width: 915px;
+    height:280px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+#rightBody{
+    float: left;
+}
+/*articulos botones*/
+#rightBody .op{
+    width: 120px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -6px;
+    margin-top: 10px;
+    
+}
+#rightBody div{
+    margin-left: 40px;
+    
+}
+/*seccion de articulos*/
+#sectionArt{
+    border:solid rgb(87, 87, 87);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+    margin-left: 35px;
+    width: 927px;
+}
+.articulo{
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+.articulo img{
+    width: 150px;
+    height: 150px;
+    margin-left: -8px;
+}
+.articulo .imgArticulo{
+    border: solid rgb(87, 87, 87);
+    margin-top: 30px;
+    
+}
+#footArticle{
+    text-align: right rgb(87, 87, 87);
+    padding: 40px;
+    
+}
+/*informacion*/
+.information{
+   border: solid rgb(87, 87, 87);
+   float: left;
+   clear: both;
+   border-top-left-radius:20px;
+   border-top-right-radius:20px;
+   width: 927px;
+   margin-top: 20px;
+
+}
+
+.information p{
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid rgb(87, 87, 87);
+    color: white;
+    font-weight: bold;
+    background: rgb(87, 87, 87);
+    border-radius: 11px;
+    border-top: 0px;
+}
+.information div{
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+/*pie de la pagina*/
+#footPage{
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 50px;
+    border-top: dashed;
+    width: 1200px;
+
+}
+#footPage a,h2{
+    float: left;
+    margin-left: 40px;
+}
+
+#footPage .redes{ 
+    float: right;
+
+    
+}
+#footPage img{
+    width: 35px;
+    height: 35px;
+    
+}
+#footPage .copyright{
+    float: left;
+    clear: both;
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
